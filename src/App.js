@@ -9,22 +9,14 @@ function App() {
   const [recipes, setRecipes] = useState([]);
   const [loading, setLoading] = useState(false);
 
-  // useEffect(() => {
-  //   async function fetchdata(q) {
-  //     const response = await searchRecipe(q);
-  //     setRecipes(response.data.hits);
-  //   }
-  //   fetchdata('banana');
-  // }, []);
-
   const handlesearch = async (q) => {
     setLoading(false);
+    // empty the recipes array to display loading Components
     setRecipes([]);
     setLoading(true);
     const response = await searchRecipe(q);
     setLoading(false);
     setRecipes(response.data.hits);
-    console.log(recipes);
   };
 
   return (
