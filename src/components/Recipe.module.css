@@ -11,9 +11,27 @@
 .cardinfo {
   margin-left: 2rem;
 }
+.cardinfo h2 {
+  color: lightblue;
+  margin-bottom: 1rem;
+}
+.cardinfo p b {
+  margin-left: 1rem;
+  color: rgb(43, 42, 42);
+}
 .totalFood {
   margin-bottom: 10px;
 }
 .header {
   color: rgb(26, 24, 24);
+}
+@media only screen and (max-width: 600px) {
+  .card {
+    flex-direction: column;
+  }
+  .cardinfo {
+    padding-top: 1rem;
+    margin-left: 1rem;
+    color: grey;
+  }
 }
