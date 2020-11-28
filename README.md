@@ -1,8 +1,14 @@
-# Getting Started with Create React App
+# This project is build using react and axios to get api
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+you can check the project here at netfily [searchRecipes](https://searchrecipes2.netlify.app).
+
+im using edamam api you can sign up here and get your app_id And app_key [edamam](https://www.edamam.com/).
+
+before you run the app change app_Key/Id in .env.local file and put yours
 
 ## Available Scripts
+
+before you run the project put app
 
 In the project directory, you can run:
 
