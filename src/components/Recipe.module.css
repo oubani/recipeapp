@@ -3,6 +3,7 @@
   margin-bottom: 20px;
   padding: 1rem 2rem;
   max-width: 100%;
+  background: #fff;
 }
 .card:hover {
   box-shadow: 2px 2px 10px grey;
